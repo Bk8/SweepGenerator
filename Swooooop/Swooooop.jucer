@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ejpxsO" name="Swooooop" projectType="audioplug" version="1.0.0"
+              bundleIdentifier="com.yourcompany.Swooooop" includeBinaryInAppConfig="1"
+              buildVST="1" buildVST3="1" buildAU="1" buildAUv3="0" buildRTAS="0"
+              buildAAX="0" pluginName="Swooooop" pluginDesc="Swooooop" pluginManufacturer="Jacob Grafenstein"
+              pluginManufacturerCode="Graf" pluginCode="Ejpx" pluginChannelConfigs=""
+              pluginIsSynth="1" pluginWantsMidiIn="0" pluginProducesMidiOut="0"
+              pluginIsMidiEffectPlugin="0" pluginEditorRequiresKeys="0" pluginAUExportPrefix="SwooooopAU"
+              pluginRTASCategory="" aaxIdentifier="com.yourcompany.Swooooop"
+              pluginAAXCategory="AAX_ePlugInCategory_Dynamics" jucerVersion="4.2.3">
+  <MAINGROUP id="DGYyex" name="Swooooop">
+    <GROUP id="{B7436DE4-794D-A52D-6536-A2B3EB318F40}" name="Source">
+      <FILE id="UV9u42" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="wpT2uI" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="ufmKjz" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="z1jz4Y" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" isDebug="1" optimisation="1" targetName="Swooooop"/>
+        <CONFIGURATION name="Release" isDebug="0" optimisation="3" targetName="Swooooop"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../modules/"/>
+        <MODULEPATH id="juce_events" path="../modules/"/>
+        <MODULEPATH id="juce_graphics" path="../modules/"/>
+        <MODULEPATH id="juce_data_structures" path="../modules/"/>
+        <MODULEPATH id="juce_gui_basics" path="../modules/"/>
+        <MODULEPATH id="juce_gui_extra" path="../modules/"/>
+        <MODULEPATH id="juce_cryptography" path="../modules/"/>
+        <MODULEPATH id="juce_video" path="../modules/"/>
+        <MODULEPATH id="juce_opengl" path="../modules/"/>
+        <MODULEPATH id="juce_audio_basics" path="../modules/"/>
+        <MODULEPATH id="juce_audio_devices" path="../modules/"/>
+        <MODULEPATH id="juce_audio_formats" path="../modules/"/>
+        <MODULEPATH id="juce_audio_processors" path="../modules/"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../modules/"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_video" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+</JUCERPROJECT>
